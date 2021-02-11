@@ -28,6 +28,20 @@ namespace Yahtzee
         public int LowerHalfTotal;
         public int Total;
 
+        public bool AcesUsed;
+        public bool TwosUsed;
+        public bool ThreesUsed;
+        public bool FoursUsed;
+        public bool FivesUsed;
+        public bool SixesUsed;
+        public bool ThreeOfKindUsed;
+        public bool FourOfKindUsed;
+        public bool FullHouseUsed;
+        public bool SmallStraightUsed;
+        public bool LargeStraightUsed;
+        public bool ChanceUsed;
+        public bool YahtzeeUsed;
+
         /*public ScoreCard()
         {
             Aces = 3;
@@ -53,6 +67,7 @@ namespace Yahtzee
         
         public ScoreCard()
         {
+            
             Aces = 0;
             Twos = 0;
             Threes = 0;
@@ -71,7 +86,21 @@ namespace Yahtzee
             Chance = 0;
             Yahtzee = 0;
             LowerHalfTotal = 0;
-            Total = 0;
+            Total = 0; 
+
+            AcesUsed = false;
+            TwosUsed = false;
+            ThreesUsed = false;
+            FoursUsed = false;
+            FivesUsed = false;
+            SixesUsed = false;
+            ThreeOfKindUsed = false;
+            FourOfKindUsed = false;
+            FullHouseUsed = false;
+            SmallStraightUsed = false;
+            LargeStraightUsed = false;
+            ChanceUsed = false;
+            YahtzeeUsed = false;
         } 
     }
 
