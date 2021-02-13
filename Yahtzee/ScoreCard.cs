@@ -41,29 +41,6 @@ namespace Yahtzee
         public bool LargeStraightUsed;
         public bool ChanceUsed;
         public bool YahtzeeUsed;
-
-        /*public ScoreCard()
-        {
-            Aces = 3;
-            Twos = 6;
-            Threes = 9;
-            Fours = 12;
-            Fives = 15;
-            Sixes = 18;
-            UpperHalfSub = 0; // Total of 1's 2's 3's 4's 5's 6's if >= 63 add 35
-            Bonus = 0;
-            UpperHalfTotal = 0;
-
-            ThreeOfKind = 21;
-            FourOfKind = 17;
-            FullHouse = 25;
-            SmallStraight = 30;
-            LargeStraight = 40;
-            Chance = 14;
-            Yahtzee = 50;
-            LowerHalfTotal = 0;
-            Total = 0;
-        } */
         
         public ScoreCard()
         {
@@ -103,6 +80,4 @@ namespace Yahtzee
             YahtzeeUsed = false;
         } 
     }
-
-
 }
